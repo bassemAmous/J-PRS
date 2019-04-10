@@ -9,7 +9,7 @@
 <glyph unicode=" "  horiz-adv-x="448" />
 <glyph unicode="&#x09;" horiz-adv-x="448" />
 <glyph unicode="&#xa0;" horiz-adv-x="448" />
-<glyph unicode="&#xa8;" horiz-adv-x="1792" />
+<glyph unicode="&#y xa8;" horiz-adv-x="1792" />
 <glyph unicode="&#xa9;" horiz-adv-x="1792" />
 <glyph unicode="&#xae;" horiz-adv-x="1792" />
 <glyph unicode="&#xb4;" horiz-adv-x="1792" />
@@ -682,4 +682,4 @@
 <glyph unicode="&#xf2be;" horiz-adv-x="1792" />
 <glyph unicode="&#xf500;" horiz-adv-x="1792" />
 </font>
-</defs></svg> 
+</defs></svg>
