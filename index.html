@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>JokerRPS</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="src/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="src/css/style.css" />
+
+		<link rel="icon" type="image/png" href="assets/images/joker.jpg" sizes="16x16" />
+
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header" >
+				<div class="inner">
+					<a href="index.html" class="logo">J-RPS </a>
+				</div>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner" >
+
+				<div>
+				<h1 >Let the challenge begin!</h1>
+				<p >Joker Rock Paper scissor</p>
+				</div>
+			</section>
+
+		<!-- Levels -->
+			<section id="one" class="wrapper">
+				<div class="inner">
+					<div class="flex flex-3">
+						<article >
+							<header>
+								<h3>Player vs. Joker <br /> </h3>
+							</header>
+							<p> This category is about Playing Player vs. Joker.
+							If you want this challenge click on start.
+							</p>
+							<footer>
+
+								<a href="#two" class="button special">Start</a>
+							</footer>
+						</article>
+						<article>
+							<header>
+								<h3>Joker vs. Joker?<br /> </h3>
+							</header>
+							<p>
+
+								This category is about Playing Joker vs. Joker.
+								If you want this challenge click on start.
+							</p>
+							<footer class="tooltip">
+
+								<a href="#" class="button special disabled"  >Start</a>
+								<p id="counterDown" class="tooltiptext"></p>
+							</footer>
+						</article>
+						<article>
+							<header>
+								<h3>Play a different game  <br /> </h3>
+							</header>
+							<p> This category is about Playing a different game each time.
+								If you want this challenge click on start.
+							</p>
+							<footer class="tooltip">
+								<a href="#" class="button special disabled"  >Start</a>
+								<p id="counterDown2" class="tooltiptext"></p>
+							</footer>
+						</article>
+					</div>
+				</div>
+			</section>
+
+		<!-- Game -->
+		<section id="two" class="wrapper style1 special">
+			<div class="inner">
+				<header>
+
+					<div class="scoreboard">
+						<h2>Score</h2>
+						<table>
+							<tbody>
+							<tr>
+								<td id="humanScore">0</td>
+								<td id="computerScore">0</td>
+							</tr>
+							<tr>
+
+								<td ><button  onclick="restartBD()">Restart score</button></td>
+								<td ><button  onclick="saveBD()">Save Score</button></td>
+
+							</tr>
+							</tbody>
+							<tfoot>
+							<tr>
+								<th>You</th>
+								<th>Mr. Joker</th>
+							</tr>
+							</tfoot>
+						</table>
+					</div>
+
+					<div id="status">Please choose a weapon!</div>
+				</header>
+				<div class="flex flex-4">
+					<div class="box person">
+						<div class="image round">
+						<div class="options">
+							<button class="label" id="rock"></button>
+						</div>
+						</div>
+						<h3>Rock</h3>
+						<p>Throw me I can beat everyone</p>
+					</div>
+					<div class="box person">
+						<div class="image round">
+							<div class="options">
+								<button class="label"  id="paper"></button></div>
+						</div>
+						<h3>Paper</h3>
+						<p>I'm Gonna protect you from the Rock</p>
+					</div>
+					<div class="box person">
+						<div class="image round">
+							<div class="options">
+								<button class="label"  id="scissors"></button></div>
+						</div>
+						<h3>Scissor</h3>
+						<p>I am gonna cut all the papers</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="flex">
+						<ul class="icons">
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-linkedin"><span class="label">linkedIn</span></a></li>
+							<li><a href="#" class="icon fa-pinterest-p"><span class="label">Pinterest</span></a></li>
+							<li><a href="#" class="icon fa-vimeo"><span class="label">Vimeo</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+
+
+		<!-- Scripts -->
+
+
+	</body>
+
+	<script src="src/js/business/scoreBoard/business.js" ></script>
+	<script src="src/js/business/utils.js" ></script>
+
+</html>

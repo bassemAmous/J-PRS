@@ -1,0 +1,7 @@
+{
+  "baseUrl": "http://localhost:63342/J-RPS/index.html",
+  "fixturesFolder": "cypress/fixtures",
+  "integrationFolder": "cypress/integration",
+  "pluginsFile": "cypress/plugins",
+  "supportFile": "cypress/support"
+}

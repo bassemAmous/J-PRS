@@ -1,0 +1,79 @@
+.scoreboard {
+    width: 20em;
+    margin: auto;
+    border: 1px solid #ffffff;
+}
+.scoreboard h2 {
+    border-bottom: 1px solid #ffffff;
+    margin: 0;
+    padding: 10px;
+}
+.scoreboard table {
+    margin: 10px auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+.scoreboard th, .scoreboard td {
+    text-align: center;
+}
+.scoreboard td {
+    font-size: 3em;
+    padding: 0 20px;
+}
+
+#status {
+    color: #ffffff;
+    margin-top: 20px;
+}
+.options {
+    display: flex;
+    flex-direction: column;
+}
+.options .label {
+    background-color: #b8e994;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    height: 120px;
+    transition: transform 0.2s;
+    transform: scale(1);
+    width: 120px;
+    background-size: 50%;
+}
+.disabled {
+    pointer-events: none;
+}
+#rock
+{
+    background-image: url('../../assets/images/rock.png');
+}
+#scissors{
+    background-image: url('../../assets/images/scissors.png');
+}
+#paper{
+    background-image: url('../../assets/images/paper.png');
+}
+.tooltip {
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #b8e994;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+

@@ -1,0 +1,23 @@
+# Misc
+logs/
+*.zip
+*~
+generated/
+.nyc_output
+
+# Intellij
+.idea/*
+!/.idea/runConfigurations
+*.iws
+*.iml
+
+# VS Code
+.vscode/
+.history/
+
+# Mac
+.DS_Store
+
+# Node
+node_modules/
+
